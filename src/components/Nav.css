@@ -1,0 +1,23 @@
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.navbar{
+    background-color: white !important;
+}
+.home:hover{
+    color: #c8c8c8;
+}
+.add:hover{
+    color: #c8c8c8!important;
+}
+
+.comp:hover{
+    color: #c8c8c8  !important;
+}
+
+.navbar-brand{
+    font-size: 16.5px;
+}
