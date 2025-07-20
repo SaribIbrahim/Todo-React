@@ -7,7 +7,7 @@ function Home({ todos, onDone, onDelete }) {
 
   return (
     <div className="row">
-      <div className="home-wrapper col-lg-12 col-md-8 col-sm-6 col-12">
+      <div className="home-wrapper col-lg-12 col-md-8 col-sm-6 col-xs-6">
         <h2 className='heading'>All Tasks</h2>
         {todos.length === 0 ? (
           <p>No Tasks Yet...</p>
